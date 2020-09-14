@@ -7,7 +7,7 @@ def apply_coupons(cart, coupons)
   
   new_cart = []
   cart.each do |cart_hashes|
-    binding.pry
+    if 
     
   end
   
