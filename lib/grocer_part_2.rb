@@ -5,8 +5,10 @@ def apply_coupons(cart, coupons)
   #
   # REMEMBER: This method **should** update cart
   
-  new_cart = []
- 
+  couponed = {}
+  cart.each do |cart_hashes|
+    
+  end
   
 end
 
