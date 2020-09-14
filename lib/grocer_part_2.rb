@@ -12,7 +12,7 @@ def apply_coupons(cart, coupons)
       name = coupon[:item]
         cart.each do |cart_hash|
           if cart_hash[:item] == name
-            binding.pry
+            cart_hash[:count]
           end
         end
       #binding.pry
