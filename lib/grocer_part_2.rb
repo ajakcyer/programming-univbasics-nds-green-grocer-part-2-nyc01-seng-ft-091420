@@ -6,7 +6,7 @@ def apply_coupons(cart, coupons)
   # REMEMBER: This method **should** update cart
   
   couponed = {}
-  cart.each do |cart_hashes|
+  coupons.each do |coupon|
     
   end
   
