@@ -7,7 +7,7 @@ def apply_coupons(cart, coupons)
   
   couponed = {}
   coupons.each do |coupon|
-    
+    binding.pry
   end
   
 end
