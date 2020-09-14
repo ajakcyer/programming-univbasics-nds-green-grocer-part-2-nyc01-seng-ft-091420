@@ -9,7 +9,7 @@ def apply_coupons(cart, coupons)
   coupons.each do |coupon|
     coupon.each do |keys, values|
       binding.pry
-      name = keys[:item]
+      name = coupon[:item]
       binding.pry
     end
   end
