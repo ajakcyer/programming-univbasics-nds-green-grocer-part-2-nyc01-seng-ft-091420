@@ -7,7 +7,10 @@ def apply_coupons(cart, coupons)
   
   couponed = {}
   coupons.each do |coupon|
-    binding.pry
+    coupon.each do |keys, values|
+      name = keys[:item]
+      if cart
+    end
   end
   
 end
