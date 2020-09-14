@@ -10,7 +10,7 @@ def apply_coupons(cart, coupons)
     coupon.each do |keys, values|
       name = keys[:item]
       binding.pry
-      if cart
+      
     end
   end
   
