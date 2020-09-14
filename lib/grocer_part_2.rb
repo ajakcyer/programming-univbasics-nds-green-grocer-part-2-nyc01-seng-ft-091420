@@ -13,7 +13,7 @@ def apply_coupons(cart, coupons)
         cart.each do |cart_hash|
           if cart_hash[:item] == name
             diff = cart_hash[:count] - coupon[:num]
-            cost_diff = cart_hash[:price] / coupon[:cost]
+            remainder = 
           end
         end
       #binding.pry
