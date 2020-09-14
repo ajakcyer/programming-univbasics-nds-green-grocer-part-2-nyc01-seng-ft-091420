@@ -8,9 +8,14 @@ def apply_coupons(cart, coupons)
   couponed = {}
   coupons.each do |coupon|
     coupon.each do |keys, values|
-      binding.pry
+      #binding.pry
       name = coupon[:item]
-      binding.pry
+        cart.each do |cart_hash|
+          if cart_hash[:item] == name
+            binding.pry
+          end
+        end
+      #binding.pry
     end
   end
   
